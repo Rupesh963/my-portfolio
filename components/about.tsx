@@ -11,24 +11,69 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-28 max-w-[45rem] text-center leading-8 text-[18px] sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        I’m <span className="font-bold text-2xl underline">Roshan Kumar Rawat</span>, a <span className="italic font-semibold">passionate and self-motivated</span> Full Stack Developer with a strong foundation in the <span className="font-bold"> [MERN stack]</span> and a deep interest in creating <span className="">modern, responsive, and visually appealing</span> web applications. As a final-year BCA student, I’ve worked on multiple frontend and full-stack projects, combining my skills in <span className="font-bold text-lg">(React)</span>, <span className="font-bold text-lg">Tailwind CSS</span>, <span className="font-bold text-lg">GSAP</span>, and <span className="font-bold text-lg">(Next.js)</span> to bring creative ideas to life.
-      </p>
 
       <p className="mb-3">
-        I have a <span className="font-semibold">solid understanding</span> of core programming languages like <span className="font-bold">(JavaScript)</span> and <span className="font-bold">(Java)</span>, which helps me build <span className="">efficient, scalable, and user-friendly</span> applications. I’m also guiding junior students on real-world projects like <span className="font-bold text-lg">job portals</span> and <span className="font-bold text-lg">waste management systems</span>, which has enhanced my <span className="font-semibold text-lg">leadership and mentoring abilities</span>.
-      </p>
+  As a{" "}
+  <span className="font-bold text-[22px]">BTech (CSE-IoT) student</span>, I have a strong
+  interest in{" "}
+  <span className="font-semibold italic text-[20px]">
+    web development and problem-solving
+  </span>
+  . I am actively building my skills in{" "}
+  <span className="font-semibold italic text-[20px]">
+    data structures & algorithms
+  </span>{" "}
+  and programming languages like{" "}
+  <span className="font-bold italic text-[20px]">
+    C, Java, and JavaScript
+  </span>
+  . I enjoy applying theoretical knowledge to{" "}
+  <span className="font-semibold italic text-[20px]">
+    real-world projects
+  </span>
+  , which strengthens my understanding of core concepts.
+</p>
 
-      <p>
-        From crafting <span className="">animated UIs</span> to building real-time applications with <span className="font-bold">(Convex)</span>, I aim to deliver <span className="font-semibold">clean, efficient, and user-centric</span> code. My goal is to join a <span className="font-bold text-lg">forward-thinking company</span> where I can grow as a developer, contribute meaningfully, and turn challenges into opportunities.
-      </p>
+<p className="mb-3">
+  I have hands-on experience in{" "}
+  <span className="font-bold italic text-[20px]">
+    frontend development using React and Tailwind CSS
+  </span>
+  , and have built projects like an{" "}
+  <span className="font-medium text-[19px]">
+    AI-based Object Monitoring System
+  </span>{" "}
+  and an{" "}
+  <span className="font-medium text-[19px]">
+    ATM Simulator System
+  </span>
+  . These projects helped me gain practical exposure to{" "}
+  <span className="italic text-[19px]">
+    real-time systems, databases, and application development
+  </span>
+  .
+</p>
+
+<p>
+  My core focus is on building{" "}
+  <span className="font-bold text-[20px]">
+    efficient and scalable solutions
+  </span>{" "}
+  using concepts like{" "}
+  <span className="font-semibold text-[20px]">
+    OOPs, DBMS, and system design fundamentals
+  </span>
+  . I am eager to grow as a{" "}
+  <span className="font-medium text-[19px]">software developer</span>{" "}
+  and contribute to impactful and innovative projects.
+</p>
     </motion.section>
   );
 }

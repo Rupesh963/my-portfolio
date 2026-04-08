@@ -4,10 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecofogeImg from "@/public/ecofogeImg.jpg";
 import codeEditorImg from "@/public/codeEditorImg.jpg";
-import zerodhaImg from "@/public/zerodhaImg.jpg";
-import hotelImg from "@/public/hotelImg.png";
-import uberImg from "@/public/uberImg.png";
-
+import face from "@/public/face.jpg";
+import fruit from "@/public/fruit.jpg";
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -23,24 +21,24 @@ export const education = [
     title: "Greater Noida Institute of Technology",
     location: "Greater Noida, Uttar Pradesh, India",
     description:
-      "Pursuing Bachelor of Computer Applications (BCA) with a focus on Web Development and Software Engineering",
-    remarks: "Current CGPA: 6.5*",
+      "Pursuing Bachelor of Technology (BTech) with a focus on Web Development and Software Engineering",
+    remarks: "Current CGPA: 8*",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - Present*",
   },
   {
-    title: "DVC +2 High School, Bokaro Thermal",
-    location: "Bokaro Thermal, Jharkhand, India",
-    description: "Completed Intermediate in Computer Science (Non Medical)",
-    remarks: "Percentage: 67%",
+    title: "Gaya College",
+    location: "Gaya, Bihar, India",
+    description: "Completed Intermediate in Science (Non Medical)",
+    remarks: "Percentage: 71%",
     icon: React.createElement(LuGraduationCap),
     date: "2020 - 2021",
   },
   {
-    title: "DVC +2 High School, Bokaro Thermal",
-    location: "Bokaro Thermal, Jharkhand, India",
+    title: "SRH High School",
+    location: "Gaya, Bihar, India",
     description: "Completed Matriculation",
-    remarks: "Percentage: 72%",
+    remarks: "Percentage: 77%",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2019",
   },
@@ -48,43 +46,46 @@ export const education = [
 
 export const projectsData = [
   {
-    title: "Ecofoge Waste Management",
+    title: "AI-Based Object Monitoring System",
     description:
-      "I developed this final year BCA project to help manage and track waste collection. It includes features for user login, waste reports, and location tracking.",
-    tags: ["Next.js", "Tailwind CSS", "Drizzle ORM", "TypeScript", "Clerk", "Leaflet", "Web3Auth"],
-    imageUrl: ecofogeImg,
+      "Developed an AI-powered object detection and monitoring system using computer vision techniques. Implemented real-time object detection with alert mechanisms for security monitoring. Integrated ESP32-CAM for live video streaming and remote access, improving monitoring efficiency.",
+    tags: [
+      "Python",
+      "OpenCV",
+      "Computer Vision",
+      "ESP32-CAM",
+      "IoT",
+      "Real-Time Detection",
+    ],
+    imageUrl: face,
   },
   {
-    title: "Collaborative Code Editor",
+    title: "ATM Simulator System",
     description:
-      "A real-time collaborative code editor built with a high-quality UI. Users can write, run, and share code across rooms with live updates and user tracking.",
-    tags: ["React", "TypeScript", "Vite", "Tailwind", "Socket.io", "Convex", "Clerk"],
-    imageUrl: codeEditorImg,
+      "Developed a desktop-based banking application using Java Swing and MySQL to simulate real-world ATM operations. Implemented core functionalities such as account creation, deposit, withdrawal, balance enquiry, and mini statement. Used JDBC for seamless database connectivity and applied OOP principles to design a modular and maintainable system.",
+    tags: [
+    "Java",
+    "Java Swing",
+    "MySQL",
+    "JDBC",
+    "OOPs",
+    "DBMS",
+  ],
+
+    //imageUrl: fruit,
   },
-  {
-    title: "Zerodha UI Clone",
-    description:
-      "A frontend clone of the Zerodha trading platform with a clean design and smooth UI/UX animations, built for practice and UI improvement.",
-    tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    imageUrl: zerodhaImg,
-  },
-  {
-  title: "Uber Full-Stack Clone",
-  description:
-    "A full-stack Uber clone with real-time ride booking and tracking, built using the MERN stack for a seamless experience.",
-  tags: ["MongoDB", "Express.js", "React", "Node.js", "Tailwind CSS"],
-  imageUrl: uberImg,
-},
-  {
-  title: "Hotel Booking Website",
-  description:
-    "A modern hotel booking platform with seamless UI/UX, built to enhance user experience and streamline reservations.",
-  tags: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-  imageUrl: hotelImg,
-},
 ] as const;
 
 export const skillsData = [
-  "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Git",
-  "Tailwind", "MongoDB", "Redux", "Express", "PostgreSQL", "Java", "Convex", "Appwrite",
+  "C",
+  "Java",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "React",
+  "Tailwind CSS",
+  "MySQL",
+  "Git",
+  "OOPs",
+  "DBMS",
 ] as const;
