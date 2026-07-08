@@ -4,8 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ecofogeImg from "@/public/ecofogeImg.jpg";
 import codeEditorImg from "@/public/codeEditorImg.jpg";
-import face from "@/public/face.jpg";
-import fruit from "@/public/fruit.jpg";
+import food from "@/public/Food.jpg";
+import atm from "@/public/ATM.jpg";
 
 export const links = [
   { name: "Home", hash: "#home" },
@@ -18,51 +18,52 @@ export const links = [
 
 export const education = [
   {
-    title: "Greater Noida Institute of Technology",
+    title: "Greater Noida Institute of Technology (GNIOT)",
     location: "Greater Noida, Uttar Pradesh, India",
     description:
-      "Pursuing Bachelor of Technology (BTech) with a focus on Web Development and Software Engineering",
-    remarks: "Current CGPA: 8*",
+      "Completed Bachelor of Technology (B.Tech) in Computer Science & Engineering (IoT), with a focus on Java backend development, Spring Boot, and full-stack application development.",
+    remarks: "CGPA: 7.91/10",
     icon: React.createElement(LuGraduationCap),
-    date: "2022 - Present*",
+    date: "2022 – 2026",
   },
   {
-    title: "Gaya College",
-    location: "Gaya, Bihar, India",
-    description: "Completed Intermediate in Science (Non Medical)",
-    remarks: "Percentage: 71%",
-    icon: React.createElement(LuGraduationCap),
-    date: "2020 - 2021",
-  },
+  title: "Gaya College",
+  location: "Gaya, Bihar, India",
+  description:
+    "Completed Higher Secondary Education (Class XII) in Science.",
+  remarks: "Percentage: 71%",
+  icon: React.createElement(LuGraduationCap),
+  date: "2020 – 2021",
+},
   {
-    title: "SRH High School",
-    location: "Gaya, Bihar, India",
-    description: "Completed Matriculation",
-    remarks: "Percentage: 77%",
-    icon: React.createElement(LuGraduationCap),
-    date: "2018 - 2019",
-  },
+  title: "SRH High School",
+  location: "Gaya, Bihar, India",
+  description: "Completed Secondary Education (Class X).",
+  remarks: "Percentage: 77%",
+  icon: React.createElement(LuGraduationCap),
+  date: "2018 – 2019",
+},
 ] as const;
 
 export const projectsData = [
   {
-    title: "AI-Based Object Monitoring System",
-    description:
-      "Developed an AI-powered object detection and monitoring system using computer vision techniques. Implemented real-time object detection with alert mechanisms for security monitoring. Integrated ESP32-CAM for live video streaming and remote access, improving monitoring efficiency.",
-    tags: [
-      "Python",
-      "OpenCV",
-      "Computer Vision",
-      "ESP32-CAM",
-      "IoT",
-      "Real-Time Detection",
-    ],
-    imageUrl: face,
-  },
+  title: "Food Delivery App",
+  description:
+    "Built a full-stack food delivery application using Spring Boot, React, and MongoDB, featuring authentication, menu management, cart functionality, and order processing through RESTful APIs.",
+  tags: [
+    "Java",
+    "Spring Boot",
+    "React",
+    "MongoDB",
+    "REST APIs",
+    "JWT",
+  ],
+  imageUrl: food, // import your project screenshot above
+},
   {
     title: "ATM Simulator System",
     description:
-      "Developed a desktop-based banking application using Java Swing and MySQL to simulate real-world ATM operations. Implemented core functionalities such as account creation, deposit, withdrawal, balance enquiry, and mini statement. Used JDBC for seamless database connectivity and applied OOP principles to design a modular and maintainable system.",
+      "Built a desktop ATM application using Java Swing, MySQL, and JDBC, implementing core banking operations with a modular OOP design.",
     tags: [
     "Java",
     "Java Swing",
@@ -72,20 +73,26 @@ export const projectsData = [
     "DBMS",
   ],
 
-    //imageUrl: fruit,
+    imageUrl: atm,
   },
 ] as const;
 
 export const skillsData = [
-  "C",
   "Java",
+  "Spring Boot",
+  "Spring AI",
+  "REST APIs",
+  "React",
   "JavaScript",
   "HTML",
   "CSS",
-  "React",
   "Tailwind CSS",
   "MySQL",
+  "MongoDB",
   "Git",
-  "OOPs",
+  "GitHub",
+  "Postman",
+  "OOP",
   "DBMS",
+  "DSA",
 ] as const;

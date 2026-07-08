@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/pick.png"
+              src="/profile.png"
               alt="Rupesh"
               width="192"
               height="192"
@@ -52,7 +52,6 @@ export default function Intro() {
               duration: 0.7,
             }}
           >
-            👋
           </motion.span>
         </div>
       </div>
@@ -62,13 +61,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm Rupesh Kumar.</span> I'm a{" "}
-<span className="font-bold">Computer Science (IoT) final-year BTech student</span> with a strong foundation in{" "}
-<span className="underline">C, Java, and JavaScript</span>. I have hands-on experience in{" "}
-<span className="font-bold">frontend development using React and Tailwind CSS</span>, and I enjoy building{" "}
-<span className="italic">real-world applications</span> such as an AI-based Object Monitoring System and an ATM Simulator System. 
-I am passionate about applying core CS concepts like{" "}
-<span className="underline">OOPs, DBMS, and problem-solving</span> to develop efficient and scalable solutions.
+        I'm a <span className="font-bold">Java Backend Developer</span> with a B.Tech in <span className="underline">Computer Science (IoT)</span> from GNIOT. I recently completed my internship at <span className="font-bold">Elevate Labs</span>, where I built REST APIs using <span className="underline">Spring Boot</span> and contributed to a production codebase. I've also built full-stack projects with <span className="underline">Spring Boot, React, and MongoDB</span>, and solved <span className="font-bold">200+ DSA problems</span> on LeetCode and GeeksforGeeks. Currently, I'm exploring <span className="italic">Spring AI</span> and looking to grow as a backend developer.
         <br />
       </motion.h1>
 
@@ -94,7 +87,7 @@ I am passionate about applying core CS concepts like{" "}
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/placed 26.pdf"
+          href="/Rupesh_Kumar_Resumep2.pdf"
           download
         >
           Download CV{" "}
@@ -111,7 +104,7 @@ I am passionate about applying core CS concepts like{" "}
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Rupesh963/rupesh.git"
+          href="https://github.com/Rupesh963"
           target="_blank"
         >
           <FaGithubSquare />

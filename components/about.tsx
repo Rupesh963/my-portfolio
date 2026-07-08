@@ -20,59 +20,23 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-  As a{" "}
-  <span className="font-bold text-[22px]">BTech (CSE-IoT) student</span>, I have a strong
-  interest in{" "}
-  <span className="font-semibold italic text-[20px]">
-    web development and problem-solving
-  </span>
-  . I am actively building my skills in{" "}
-  <span className="font-semibold italic text-[20px]">
-    data structures & algorithms
-  </span>{" "}
-  and programming languages like{" "}
-  <span className="font-bold italic text-[20px]">
-    C, Java, and JavaScript
-  </span>
-  . I enjoy applying theoretical knowledge to{" "}
-  <span className="font-semibold italic text-[20px]">
-    real-world projects
-  </span>
-  , which strengthens my understanding of core concepts.
+  I'm <span className="font-bold text-[22px]">Rupesh Kumar</span>, a Java Backend Developer based in Noida, India. I recently completed my <span className="font-semibold italic text-[20px]">B.Tech in Computer Science (IoT)</span> from <span className="font-medium text-[19px]">Greater Noida Institute of Technology (GNIOT)</span> in 2026.
 </p>
 
 <p className="mb-3">
-  I have hands-on experience in{" "}
-  <span className="font-bold italic text-[20px]">
-    frontend development using React and Tailwind CSS
-  </span>
-  , and have built projects like an{" "}
-  <span className="font-medium text-[19px]">
-    AI-based Object Monitoring System
-  </span>{" "}
-  and an{" "}
-  <span className="font-medium text-[19px]">
-    ATM Simulator System
-  </span>
-  . These projects helped me gain practical exposure to{" "}
-  <span className="italic text-[19px]">
-    real-time systems, databases, and application development
-  </span>
-  .
+  I completed a Java Developer internship at <span className="font-medium text-[19px]">Elevate Labs</span> (Jun–Aug 2026), where I built REST APIs with <span className="font-bold italic text-[20px]">Spring Boot</span>, contributed to a production codebase, and collaborated with senior engineers on code reviews and debugging. This experience strengthened my ability to write clean, maintainable backend code in a professional environment.
+</p>
+
+<p className="mb-3">
+  I have a strong problem-solving foundation, having solved <span className="font-bold text-[20px]">200+ DSA problems</span> on LeetCode and GeeksforGeeks. This practice shapes the way I design efficient and well-structured software systems.
+</p>
+
+<p className="mb-3">
+  I enjoy building end-to-end applications and have developed a <span className="font-medium text-[19px]">full-stack Food Delivery Platform</span> using Spring Boot, React, and MongoDB, along with an <span className="font-medium text-[19px]">ATM Simulation System</span> in Java, gaining practical experience in authentication, order processing, and secure transaction handling.
 </p>
 
 <p>
-  My core focus is on building{" "}
-  <span className="font-bold text-[20px]">
-    efficient and scalable solutions
-  </span>{" "}
-  using concepts like{" "}
-  <span className="font-semibold text-[20px]">
-    OOPs, DBMS, and system design fundamentals
-  </span>
-  . I am eager to grow as a{" "}
-  <span className="font-medium text-[19px]">software developer</span>{" "}
-  and contribute to impactful and innovative projects.
+  Currently, I am exploring <span className="font-semibold text-[20px]">Spring AI</span> and seeking full-time opportunities where I can contribute as a backend developer while continuing to grow and learn.
 </p>
     </motion.section>
   );
