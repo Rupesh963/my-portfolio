@@ -15,8 +15,6 @@ A modern and responsive developer portfolio built with Next.js, React, TypeScrip
 - Tailwind CSS
 - Framer Motion
 
-## Getting Started
+## link
 
-```bash
-npm install
-npm run dev
+my-portfolio-dun-pi-87.vercel.app
