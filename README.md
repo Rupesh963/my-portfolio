@@ -17,4 +17,4 @@ A modern and responsive developer portfolio built with Next.js, React, TypeScrip
 
 ## link
 
-my-portfolio-dun-pi-87.vercel.app
+https://my-portfolio-dun-pi-87.vercel.app
